@@ -23,5 +23,7 @@ $result = require __DIR__ . '/calc.php';
 </form>
 <p>Результат вычислений:</p>
     <?=$result ?>
+    <?php
+    require_once 'bd.php';?>
 </body>
 </html> 
